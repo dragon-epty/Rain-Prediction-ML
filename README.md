@@ -105,4 +105,4 @@ Understanding *why* each model performed the way it did is crucial for this proj
 * **Youssef Mahmoud** - [LinkedIn Profile](https://www.linkedin.com/in/youssef-mahmoud-3a633225b/)
 * **Mohamed Nasser** - [LinkedIn Profile](https://www.linkedin.com/in/mohamed-nasser-563059319/)
 * **Ahmed Wael Abdallah** - [LinkedIn Profile](www.linkedin.com/in/ahmed-wael-8b506b364)
-* **[Name of the fourth member]** - [LinkedIn Profile](حط لينك LinkedIn هنا)
+* **Khaled Mohamed Ewais** - [LinkedIn Profile](www.linkedin.com/in/khaled-ewais-534925399)
