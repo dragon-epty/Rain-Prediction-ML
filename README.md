@@ -31,7 +31,7 @@ To enhance model reliability and ensure a robust evaluation process, a comprehen
   Numerical features were standardized using **StandardScaler** to achieve comparable feature distributions and improve the performance of distance-based and gradient-based machine learning algorithms.
 
 * **Data Splitting Strategy:**  
-  The dataset was divided into training and testing sets using an **85/15 split ratio**, ensuring an unbiased evaluation of the model's generalization capability on unseen weather data.
+  The dataset was divided into training and testing sets using an **80/20 split ratio**, ensuring an unbiased evaluation of the model's generalization capability on unseen weather data.
 
 ## 🤖 Models Trained
 We experimented with four different classification models to establish the best decision boundary:
