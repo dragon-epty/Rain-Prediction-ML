@@ -85,6 +85,21 @@ Below is the Confusion Matrix and ROC Curve for our top-performing model:
 **ROC Curve (AUC = 0.75):**
 ![Naive Bayes ROC](images/NP_ROC.png)
 
+### 🧠 Model Insights & Performance Analysis
+Understanding *why* each model performed the way it did is crucial for this project. Here is our technical breakdown of the results:
+
+1. **Random Forest (85% - Best Performer):**  
+   Achieved the highest accuracy and AUC because weather data is highly non-linear and complex. As an ensemble method, it successfully captured these non-linear relationships without overfitting, and it naturally handled the multicollinearity present in our features (as seen in the EDA heatmap).
+
+2. **Logistic Regression (84% - Close Second):**  
+   Performed exceptionally well due to our rigorous preprocessing pipeline. The application of **Log Transforms** (for skewed data like Rainfall), **Capping** (for extreme outliers), and **MinMaxScaler** created an ideal environment for this linear model. The built-in L2 Regularization successfully mitigated the negative effects of multicollinearity.
+
+3. **Decision Tree (78% - Moderate):**  
+   While it provided good baseline splits and handled outliers well, a single decision tree is prone to high variance and can struggle to generalize perfectly on unseen data compared to an ensemble of 100 trees (Random Forest).
+
+4. **Gaussian Naive Bayes (65% - Underperformed):**  
+   As expected, this was the weakest model. Naive Bayes relies on the strong assumption of **feature independence**. Our correlation heatmap clearly showed that many weather features (e.g., Temp9am and Temp3pm, Pressure9am and Pressure3pm) are highly correlated. The violation of this independence assumption caused the model's accuracy to drop significantly.
+
 ## 👥 Team Members
 
 * **Youssef Mahmoud** - [LinkedIn Profile](https://www.linkedin.com/in/youssef-mahmoud-3a633225b/)
