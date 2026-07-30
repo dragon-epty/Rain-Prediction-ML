@@ -105,4 +105,4 @@ Understanding *why* each model performed the way it did is crucial for this proj
 * **Youssef Mahmoud** - [LinkedIn Profile](https://www.linkedin.com/in/youssef-mahmoud-3a633225b/)
 * **[Name of the second member]** - [LinkedIn Profile](حط لينك LinkedIn هنا)
 * **[Name of the third member]** - [LinkedIn Profile](حط لينك LinkedIn هنا)
-* * **[Name of the fourth member]** - [LinkedIn Profile](حط لينك LinkedIn هنا)
+* **[Name of the fourth member]** - [LinkedIn Profile](حط لينك LinkedIn هنا)
