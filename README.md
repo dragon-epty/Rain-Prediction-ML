@@ -7,12 +7,21 @@ This project applies machine learning classification algorithms to predict wheth
 We explored the relationships between numerical features to understand dependencies and avoid multicollinearity. 
 ![Correlation Heatmap](images/correlationi_heatmap.png)
 
-## 🛠️ Data Preprocessing & Cleaning
-To ensure high model performance and prevent data leakage, the following robust preprocessing pipeline was implemented:
-* **Train-Test Split:** Data was split initially (85% Train, 15% Test) to ensure completely unbiased evaluation.
-* **Handling Outliers:** Applied **Capping** instead of dropping for extreme weather values to preserve dataset integrity.
-* **Missing Values Imputation:** Handled numerical and categorical missing data separately using rigorous strategies.
-* **Feature Scaling:** Applied `StandardScaler` to normalize features for distance-sensitive algorithms.
+## 🛠️ Data Preprocessing & Feature Engineering
+
+To enhance model reliability and ensure a robust evaluation process, a comprehensive preprocessing pipeline was developed. The following steps were applied:
+
+* **Outlier Detection & Treatment:**  
+  Extreme weather values were handled using a **capping (winsorization) approach** rather than removal, preserving valuable information while reducing the impact of potential anomalies.
+
+* **Missing Data Handling:**  
+  Missing values were carefully processed through separate imputation strategies for **numerical and categorical features**, maintaining data consistency and preventing information loss.
+
+* **Feature Scaling & Normalization:**  
+  Numerical features were standardized using **StandardScaler** to achieve comparable feature distributions and improve the performance of distance-based and gradient-based machine learning algorithms.
+
+* **Data Splitting Strategy:**  
+  The dataset was divided into training and testing sets using an **85/15 split ratio**, ensuring an unbiased evaluation of the model's generalization capability on unseen weather data.
 
 ## 🤖 Models Trained
 We experimented with four different classification models to establish the best decision boundary:
