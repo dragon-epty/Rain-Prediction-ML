@@ -103,6 +103,6 @@ Understanding *why* each model performed the way it did is crucial for this proj
 ## 👥 Team Members
 
 * **Youssef Mahmoud** - [LinkedIn Profile](https://www.linkedin.com/in/youssef-mahmoud-3a633225b/)
-* **[Name of the second member]** - [LinkedIn Profile](حط لينك LinkedIn هنا)
+* **[Mohamed Nasser]** - [LinkedIn Profile]((https://www.linkedin.com/in/mohamed-nasser-563059319/))
 * **[Name of the third member]** - [LinkedIn Profile](حط لينك LinkedIn هنا)
 * **[Name of the fourth member]** - [LinkedIn Profile](حط لينك LinkedIn هنا)
