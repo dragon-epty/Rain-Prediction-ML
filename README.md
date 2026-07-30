@@ -7,6 +7,16 @@ This project applies machine learning classification algorithms to predict wheth
 We explored the relationships between numerical features to understand dependencies and avoid multicollinearity. 
 ![Correlation Heatmap](images/correlationi_heatmap.png)
 
+To better understand the distributions and detect outliers in our continuous variables, we visualized the numerical features:
+
+**Feature Distributions (Histograms):**
+Visualizing the distributions of features like Rainfall, Evaporation, and Wind Speeds reveals right-skewed patterns.
+![Histograms](images/histogram_of_data.png)
+
+**Outlier Detection (Boxplots):**
+Boxplots highlight the presence of extreme values in our weather data that require specific handling before modeling.
+![Boxplots](images/box_plot_of_data.png)
+
 ## 🛠️ Data Preprocessing & Feature Engineering
 
 To enhance model reliability and ensure a robust evaluation process, a comprehensive preprocessing pipeline was developed. The following steps were applied:
@@ -50,3 +60,34 @@ Below is the Confusion Matrix and ROC Curve for our top-performing model:
 
 **ROC Curve:**
 ![ROC Curve](images/ROC_curve_random_forest.png)
+
+---
+### Performance of Other Evaluated Models
+
+#### Logistic Regression (Threshold = 0.35)
+**Confusion Matrix:**
+![Logistic Regression CM](images/Losgistic_threshold_consuion_matrix.png)
+
+**ROC Curve (AUC = 0.873):**
+![Logistic Regression ROC](images/Logistic_threshold_ROC.png)
+
+#### Decision Tree
+**Confusion Matrix:**
+![Decision Tree CM](images/decision_tree_confusion_matrix.png)
+
+**ROC Curve (AUC = 0.844):**
+![Decision Tree ROC](images/ROC_curve_decision_tree.png)
+
+#### Gaussian Naive Bayes
+**Confusion Matrix:**
+![Naive Bayes CM](images/NP_confusion_matrix.png)
+
+**ROC Curve (AUC = 0.75):**
+![Naive Bayes ROC](images/NP_ROC.png)
+
+## 👥 Team Members
+
+* **Youssef Mahmoud** - [LinkedIn Profile](https://www.linkedin.com/in/youssef-mahmoud-3a633225b/)
+* **[Name of the second member]** - [LinkedIn Profile](حط لينك LinkedIn هنا)
+* **[Name of the third member]** - [LinkedIn Profile](حط لينك LinkedIn هنا)
+* * **[Name of the fourth member]** - [LinkedIn Profile](حط لينك LinkedIn هنا)
